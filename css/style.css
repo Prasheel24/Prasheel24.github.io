@@ -116,7 +116,7 @@ a:hover {
 
 .table-cell {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 /*--/ Sections /--*/
