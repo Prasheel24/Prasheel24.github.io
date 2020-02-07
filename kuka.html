@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pick, Paint, Place</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    Theme Name: DevFolio
+    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="index.html">Prasheel Renkuntla</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#blog">Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Blog</a>
+          </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="docs/Resume_Main.pdf" download>CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <!--/ Intro Skew Star /-->
+    <div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h2 class="intro-title mb-4">Size-based Object Marking and Segregation</h2>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="index.html#blog">Projects</a>
+                        </li>
+                        <li class="breadcrumb-item active">Data</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Intro Skew End /-->
+
+    <!--/ Section Blog-Single Star /-->
+    <section class="blog-wrapper sect-pt4" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="post-box">
+                        <div class="post-thumb">
+                            <img src="img/post-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="post-meta">
+                            <h1 class="article-title">Pick, Paint and Place!</h1>
+                            <ul>
+                                <li>
+                                    <span class="ion-ios-person"></span>
+                                    <a href="" style="cursor: default">Prasheel Renkuntla</a>
+                                </li>
+                                <li>
+                                    <span class="ion-pricetag"></span>
+                                    <a href="" style="cursor: default">CoppeliaSim(VRep),MATLAB</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="article-content">
+                            <p>
+                                This project demonstrates the use of 7 Degrees of Freedom of a KUKA LBR4 iiwa R820 arm.
+                                The aim of this project is to mark and segregate objects (pick and place) on a conveyor belt based on its size.
+                                The project is simulated in CoppeliaSim and DH table verified in MATLAB.
+                            </p>
+                            <img src="img/img-8.PNG" alt="" class="img-fluid">                            
+                            <p>
+                            First, the forward and inverse kinematics were computed for the 7DoF arm. Then, using these equations the arm was
+                            simulated for different positions in its configuration space. The gripper was modelled and using its Grasp map, the
+                            force required to hold an object was calculated.
+                            </p>
+                            <p>Object Sprayed</p>
+                            <img src="img/img-9.PNG" alt="" class="img-fluid">
+                            <p>
+                            Using the FK, IK and Grasp Model of the structure, the arm is able to move throughout its configuration space covering
+                            almost 90% of it. This shows the scalability of this project to be used in any industrial environment.
+                            </p>
+                            <p>Completed Task</p>
+                            <img src="img/img-10.PNG" alt="" class="img-fluid">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Dependencies: CoppeliaSim(VRep),MATLAB
+                                </p>
+                            </blockquote>
+                            <p>
+                                This project was developed for the final project in Introduction to Robot Modelling course.
+                                The arm moved easily in its configuration space to pick each of the three objects, get it sprayed and place it on the
+                                table next to it.
+                                The project can be accessed from here : <b><a
+                                        href="https://github.com/Prasheel24/object-marking-segregation" target="_blank">GitHub
+                                        Repo<i class="ion-link"></i></a></b>
+                            </p>
+                            <iframe width="650" height="300" src="data/ProjectDemoFinal.mp4">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="form-comments">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSdaYMFPo3Fk8KM37NpHH_y_BjeinNGipGCM3bd1NdwRKKUi8Q/viewform?embedded=true"
+                            width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-sidebar widget-tags">
+                        <h5 class="sidebar-title">Tags</h5>
+                        <div class="sidebar-content">
+                            <ul>
+                                <li>
+                                    <a href="" style="cursor: default">MATLAB</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">CoppeliaSim(VRep)</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">Pick, Paint, Place</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">Forward Kinematics</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">Inverse Kinematics</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default"">Grasp Map</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">KUKA LBR4 iiwa R820</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">RG2 Gripper</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">Chemical Testing Facility</a>
+                                </li>
+                                <li>
+                                    <a href="" style="cursor: default">Industrial Automation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ Section Blog-Single End /-->
+
+    <!--/ Section Contact-Footer Star /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+        style="background-image: url(img/overlay-bg.jpg)">
+        <div class="overlay-mf"></div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright-box" style="font-size: xx-small;">
+                            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                            <div class="credits">
+                                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
